@@ -1,0 +1,15 @@
+body .conteiner {
+  background-color: aqua;
+}
+body .texto {
+  position: relative;
+}
+body p {
+  color-scheme: 2;
+}
+body P:hover {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

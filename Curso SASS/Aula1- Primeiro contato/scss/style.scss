@@ -1,0 +1,16 @@
+body{
+    .conteiner{
+        background-color: aqua;
+        
+    }
+    .texto{
+        position: relative;
+    }
+    p{
+        color-scheme:  abs($number: 2);
+    }
+    P:hover{
+       background-color: black; 
+       color: white;
+    }
+}

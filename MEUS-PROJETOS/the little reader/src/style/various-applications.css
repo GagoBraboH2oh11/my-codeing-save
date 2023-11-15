@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+html, body{
+    margin: auto;
+    
+}
+
+h1,h6{
+    color: lightblue;
+    text-align:center;
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+
+.line{
+    display: block;
+    margin:auto;
+    width: 100vw;
+    border: 1px solid lightgrey;
+}
+
+#line2{
+    width: 90vw;
+}
+
+#morelinks{
+    text-align: center;
+    margin: 10px;
+    
+}
+
+#logo-menu{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+#morelinks>a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#logo-menu:hover{
+    transition: all .5s;
+    transform: rotate(180deg);
+}
+
+#title{
+    background: url(../img/background-title.jpg);
+    background-position: center left;
+}
+
+#visibility-books{
+background-image: linear-gradient(to top, rgb(201, 38, 179), rgb(228, 9, 100));
+width: 90vw;
+margin: auto;
+}
+#visibility-books-row1 {
+    
+    width: 90vw;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+.visibility-books-row1-book{
+    border: 1px black solid;
+}
+

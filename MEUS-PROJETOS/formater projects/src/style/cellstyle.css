@@ -1,0 +1,90 @@
+@media screen and (min-width:320px) and (max-width:425px){
+    *{
+        margin: 0;
+        padding: 0%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    li{
+        list-style: none;
+    }
+    /*HEADER*/
+    header{
+        background-color: #F7BF4F;
+        width: 100vw;
+        height: 50px;
+        display: block;
+        border-radius: 0px 0px 14px 14px;
+
+    }
+
+    .material-icons{
+        float: right;
+        display: block;
+        margin-top: -37px;
+        padding-right: 10px;
+        
+    }
+
+    #cart{
+        float: right;
+        margin-left: 10px;
+    }
+
+    .logo>img{
+        display: block;
+        margin: auto;
+        height: 50px;
+        
+    }
+
+    #menuimg{
+        margin-left: 10px;
+        float:left;
+        width: 34px;
+        height: 24px;
+        margin-top: -37px;
+        transform: rotate(360deg);
+        transition: all .5s
+        
+    }
+
+/*itensmenu*/
+
+    #itensmenu{
+        display: flex;
+        list-style: none;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: #F7BF4F;
+        height: 92vh;
+        width: 0vw;
+        padding: 0px;
+        list-style-type: none;
+        border-radius: 0px 14px 14px 0px;
+        transition: all .5s;
+        float: left;
+        text-align: center;
+        justify-content: space-around;
+        
+    }
+
+    #itensmenu>ul>li>a{
+        padding: 30px;
+        margin: 30px;
+        color: white;
+        text-decoration: none;
+        transition: all 1s;
+        float:right ;
+        text-align: center;
+        display: block;
+        flex-direction: column;
+        
+        
+        
+        
+    }
+
+   
+
+    
+}

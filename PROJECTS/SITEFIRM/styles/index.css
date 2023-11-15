@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    width: 0%;
+    height: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#content{
+    width: 100vw;
+    height: 100vh;  
+}
+
+header{
+    width: 100vw;
+    height: 13vh;
+    border: 1px solid black;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+#logo-header{
+    height: 100%;
+    width: 5%;
+    margin-left: 5%;
+    
+}
+
+.button-sherch{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+#button-sherch-photo{
+   
+    height: 40%;
+    width: 10%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 0px 4px 4px 0px;
+
+}
+
+#header-search{
+    border: 1px solid lightgray;
+    border-radius: 4px 0px 0px 4px;
+    width: 100%;
+    height: 40%;
+}
+
+#header-search:focus{
+    transition: all .5s;
+    width: 110%;
+    outline: none;
+
+}
+
+#logo-header > img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin:1%;
+}
+
+.menu-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+.menu-links>a:hover{
+    text-decoration: underline 1px;
+
+}
+
+#conteiner-main{
+    margin-top: 5%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cartegory-film-class{
+    width: 90%;
+    height: 10%;
+}
+
+#cartegory-film-class>h1{
+    width: 90%;
+    height: 20%;
+}
+
+.conteiner-video1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 90%;
+    height: 40%;
+    border-top: white solid;
+
+}
+
+.photo-video{
+    margin-top: 10%;
+}
+
+#photo-conteiner-video1{
+    background: url(../img/Thubs-video/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+#photo-conteiner-video2{
+    background: url(../img/Thubs-video/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#photo-conteiner-video3{
+    background: url(../img/Thubs-video/3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#photo-conteiner-video4{
+    background: url(../img/Thubs-video/4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#photo-conteiner-video5{
+    background: url(../img/Thubs-video/5.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

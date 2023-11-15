@@ -1,0 +1,6 @@
+@use './global/index.scss' as b;
+
+body{
+    background-color: b.$color;
+    font-family: b.$font;
+}

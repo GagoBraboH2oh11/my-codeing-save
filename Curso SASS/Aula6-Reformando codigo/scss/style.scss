@@ -1,0 +1,40 @@
+$background: rgb(160, 120, 46);
+$color: white;
+$borderR: 10px;
+
+@mixin button-layout($background, $color, $borderR) {
+  background: $background;
+  color: $color;
+  border-radius: $borderR;
+}
+
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bnt {
+  width: 200px;
+  height: 10px;
+  padding: 10px;
+  color: white;
+  background-color: none;
+  border-radius: 12px;
+  .cor {
+    @extend .bnt;
+    background-color: tomato;
+    @include button-layout(black, white, $borderR);
+  }
+  
+  .cor:nth-child(2) {
+    @include button-layout(yellow, black, $borderR);
+  }
+  
+  .cor:nth-child(3) {
+    @include button-layout(rgb(28, 28, 187), black, $borderR);
+  }
+  
+}
+

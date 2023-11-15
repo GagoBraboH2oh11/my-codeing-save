@@ -1,0 +1,120 @@
+*{
+   margin: 0%; 
+   padding: 0%;  
+}
+
+p,h1{
+    margin: 0%; 
+    padding: 0%; 
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+body,html{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh    ;
+    width: 100vw;
+    background-image: linear-gradient(to top, #14283E,#41A3CE);
+}
+
+#foto{
+    
+    background-position: cover;
+   
+    
+}
+#login{
+    
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);   
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border-radius:12px;
+    box-shadow: black 0px 0px 5px;
+    
+    
+}
+
+input{
+    
+    display: inline-block;
+    border: 120px;
+    border-bottom:2px solid black ;
+    background-color: transparent;
+}
+
+#login>#senha,input{
+     margin: 10px;
+     border: 1px rgb(0, 0, 0) solid ;
+     border-radius: 50px;
+     text-align: center;
+}
+
+#newa{
+    font-size: small    ;
+}
+
+#entrar{
+    border-radius: 0%;
+    padding: 10px;
+}
+
+@keyframes anim{
+
+    0%{
+        top: 0%;
+    }  
+    50%{
+        top: 100px;
+    }
+    100%{
+        top: 0px;
+    }
+    
+}
+
+@keyframes anih{
+    0%{
+        bottom: 0%;
+    }  
+    50%{
+        bottom: 100px;
+    }
+    100%{
+        bottom: -10px;
+    } 
+}
+
+#fotom{
+   
+    transform: rotate(270deg );
+    animation: anim 4s infinite;
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 250px;
+    left: 20%; 
+  
+}
+
+#fotoh{
+    display: block;
+    animation: anih 4s   infinite;
+    
+    position: absolute;
+    margin: auto;
+    left: 20%;
+    width: 250px;
+    transform: rotate(270deg );
+    bottom: -10px;
+}
+

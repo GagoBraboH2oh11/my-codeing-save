@@ -1,0 +1,35 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bnt, .bnt .cor {
+  width: 200px;
+  height: 10px;
+  padding: 10px;
+  color: white;
+  background-color: none;
+  border-radius: 12px;
+}
+.bnt .cor {
+  background-color: tomato;
+  background: black;
+  color: white;
+  border-radius: 10px;
+}
+.bnt .cor:hover {
+  background: black;
+}
+.bnt .cor:nth-child(2) {
+  background: yellow;
+  color: black;
+  border-radius: 10px;
+}
+.bnt .cor:nth-child(3) {
+  background: rgb(28, 28, 187);
+  color: black;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

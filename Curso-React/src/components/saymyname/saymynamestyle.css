@@ -1,0 +1,12 @@
+.conteiner_say{
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+}
