@@ -1,10 +1,9 @@
-import NextPage from "../../components/NextPage/NextPage"
-import Text from "../../components/Text/Text"
+import Overwview from "../../components/Overwview/Overwview";
+
 export default function Home() {
   return (
     <main>
-      <Text />
-      <NextPage />
+       <Overwview/>
     </main>
   )
 }
