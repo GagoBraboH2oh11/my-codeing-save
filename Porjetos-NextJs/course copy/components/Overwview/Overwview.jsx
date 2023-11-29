@@ -1,6 +1,7 @@
 import Head from "next/head";
 import NextPage from "../NextPage/NextPage";
 import Text from "../Text/Text";
+import Todos from "../Todos/Todos";
 
 function Overwview() {
     return ( 
@@ -12,6 +13,7 @@ function Overwview() {
         </Head>
         <Text/>
         <NextPage/>
+        <Todos/>
         </>
      );
 }
