@@ -1,0 +1,25 @@
+#container-carrosel {
+  width: 80vw;
+  height: 40vh;
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+  margin: 1% 0%;
+ 
+}
+#carrosel {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+#carrosel > img {
+  width: 100vw;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+

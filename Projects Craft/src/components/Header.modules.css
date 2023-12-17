@@ -1,0 +1,30 @@
+* {
+    
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a{
+    color :white;
+    text-decoration: none;
+
+}
+header img {
+    width: 3%;
+    height: 3%;
+}
+nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  margin: 5%;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body,html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Fragment Mono', monospace;
+}
+
+#layout-out{
+    margin: auto;
+    width: 80vw;
+    border :1px solid black;
+}
