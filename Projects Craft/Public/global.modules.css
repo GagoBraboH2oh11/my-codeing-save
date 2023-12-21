@@ -8,12 +8,12 @@
 
 body,html{
     box-sizing: border-box;
-    overflow-x: hidden;
+   
     font-family: 'Fragment Mono', monospace;
 }
 
 #layout-out{
     margin: auto;
     width: 80vw;
-    border :1px solid black;
+    
 }

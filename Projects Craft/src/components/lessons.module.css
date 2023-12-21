@@ -1,0 +1,33 @@
+.lessons-show{
+    background-color:#ffad12 ;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+mark{
+    background-color: white;
+    color: #ffad12;
+}
+
+
+.lesson-sesion{
+    display: flex;
+    
+}
+
+.cart-lesson{
+    margin: 1%;
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+}
+
+.img-cart{
+    width: 50%;
+    height: 100%;
+}
+
+.img-cart>img{
+    width: 100%;
+    height: 100%;
+}
